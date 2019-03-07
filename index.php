@@ -18,6 +18,30 @@ and open the template in the editor.
         echo "Hola ".$saludo;
         
         ?>
+        
+        <?php
+        $meses["enero"]="mes 1";
+        $meses["febrero"]="mes 2";
+        $meses["marzo"]="mes 3";
+        $meses["abril"]="mes 4";
+        $meses["mayo"]="mes 5";
+        $meses["junio"]="mes 6";
+        $meses["julio"]="mes 7";
+        $meses["agosto"]="mes 8";
+        $meses["septiembre"]="mes 9";
+        $meses["octubre"]="mes 10";
+        $meses["noviembre"]="mes 11";
+        $meses["diciembre"]="mes 12";
+        ?>
+        <br>
+            <?php
+        
+        foreach ($meses as $resultado){
+            echo "Los meses son " .$resultado."<br>";
+        }
+        ?>
+        
+        
         <br>
         Variables Globales $_SERVER
         
