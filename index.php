@@ -8,8 +8,10 @@ and open the template in the editor.
     <head>
         <meta charset="UTF-8">
         <title></title>
+        <link href="estilos.css" rel="stylesheet" type="text/css"/>
     </head>
     <body>
+        <?php include 'html.php'; ?>
         Texto sin programacion
         <br>
         <?php
